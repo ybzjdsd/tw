@@ -166,7 +166,7 @@ function imgblobtodata(blob) {
 
 let srclist = []
 let display = document.createElement("div")
-display.style.padding = "1rem"
+display.style.padding = "0.5rem 1rem"
 
 function clear() {
 	display.innerHTML = ""
